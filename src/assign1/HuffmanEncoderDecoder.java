@@ -272,6 +272,9 @@ public class HuffmanEncoderDecoder implements Compressor {
 			return last;
 		}
 	}
+	
+	
+	
 
 	public static String paddPreludeSize(int size) {
 		String sizeInBytes = Integer.toBinaryString(size);
